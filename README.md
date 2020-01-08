@@ -5,6 +5,7 @@ Syntax support for the mare programming language. This extension adds basic feat
 ## Features
 
 > Syntax highlighting
+
 > Region code folding
 
 ## Requirements

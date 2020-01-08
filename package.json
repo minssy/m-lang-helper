@@ -1,0 +1,37 @@
+{
+    "name": "mare-lang",
+    "displayName": "mare lang",
+    "description": "mare script support for VS Code",
+    "version": "1.0.0",
+    "publisher": "minssy",
+	"license": "Apache-2.0",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [ "mare", "mare-language", "mre", "script" ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mare",
+                "aliases": [
+                    "Mare",
+                    "mare"
+                ],
+                "extensions": [
+                    ".mre"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mare",
+                "scopeName": "source.mre",
+                "path": "./syntaxes/mare.tmLanguage.json"
+            }
+        ]
+    }
+}

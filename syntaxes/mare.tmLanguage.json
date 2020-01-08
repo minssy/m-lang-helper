@@ -1,0 +1,96 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Moca",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#entities"
+		},
+		{
+			"include": "#keywords"
+		},		
+		{
+			"include": "#storages"
+		},
+		{
+			"include": "#supports"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#constants"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.double-slash.moca",
+				"match": "\/\/.*"
+			}]
+		},
+		"entities": {
+			"patterns": [{
+				"name": "entity.name.function.moca",
+				"match": "\\b(toString|size|length|find|ceil|floor|round|abs|pow|sqrt)\\b"
+			},
+			{
+				"name": "entity.name.type.moca",
+				"match": "\\b(system|math)\\b"
+			},
+			{
+				"name": "entity.name.tag.moca",
+				"match": "\\b(now|today)\\b"
+			}
+		]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.moca",
+				"match": "\\b(func|function|if|else|while|for|foreach|break|continue|return|throw)\\b"
+			}]
+		},
+		"storages": {
+			"patterns": [{
+				"name": "storage.type.moca",
+				"match": "\\b(int|double|string|datetime|void)\\b"
+			},
+			{
+				"name": "storage.modifier.moca",
+				"match": "\\b(true|false)\\b"
+			}]
+		},
+		"supports": {
+			"patterns": [
+			{
+				"name": "support.variable.moca",
+				"match": "\\b(log|require|exit|toInt|toArray)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.moca",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.moca",
+					"match": "\\\\."
+				}
+			]
+		},
+		"constants": {
+			"name": "constant.numeric.moca",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.moca",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.moc"
+}

@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Moca",
+	"name": "Mare",
 	"patterns": [
 		{
 			"include": "#comments"
@@ -27,70 +27,70 @@
 	"repository": {
 		"comments": {
 			"patterns": [{
-				"name": "comment.line.double-slash.moca",
+				"name": "comment.line.double-slash.mare",
 				"match": "\/\/.*"
 			}]
 		},
 		"entities": {
 			"patterns": [{
-				"name": "entity.name.function.moca",
-				"match": "\\b(toString|size|length|find|ceil|floor|round|abs|pow|sqrt)\\b"
+				"name": "entity.name.function.mare",
+				"match": "\\b(toString|size|length|find|resize|ceil|floor|round|abs|pow|sqrt)\\b"
 			},
 			{
-				"name": "entity.name.type.moca",
+				"name": "entity.name.type.mare",
 				"match": "\\b(system|math)\\b"
 			},
 			{
-				"name": "entity.name.tag.moca",
+				"name": "entity.name.tag.mare",
 				"match": "\\b(now|today)\\b"
 			}
 		]
 		},
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.moca",
+				"name": "keyword.control.mare",
 				"match": "\\b(func|function|if|else|while|for|foreach|break|continue|return|throw)\\b"
 			}]
 		},
 		"storages": {
 			"patterns": [{
-				"name": "storage.type.moca",
+				"name": "storage.type.mare",
 				"match": "\\b(int|double|string|datetime|void)\\b"
 			},
 			{
-				"name": "storage.modifier.moca",
+				"name": "storage.modifier.mare",
 				"match": "\\b(true|false)\\b"
 			}]
 		},
 		"supports": {
 			"patterns": [
 			{
-				"name": "support.variable.moca",
-				"match": "\\b(log|require|exit|toInt|toArray)\\b"
+				"name": "support.variable.mare",
+				"match": "\\b(log|require|exit|toArray)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.moca",
+			"name": "string.quoted.double.mare",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.moca",
+					"name": "constant.character.escape.mare",
 					"match": "\\\\."
 				}
 			]
 		},
 		"constants": {
-			"name": "constant.numeric.moca",
+			"name": "constant.numeric.mare",
 			"begin": "'",
 			"end": "'",
 			"patterns": [
 				{
-					"name": "constant.character.escape.moca",
+					"name": "constant.character.escape.mare",
 					"match": "\\\\."
 				}
 			]
 		}
 	},
-	"scopeName": "source.moc"
+	"scopeName": "source.mre"
 }

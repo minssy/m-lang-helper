@@ -2,7 +2,7 @@
     "name": "mare-lang",
     "displayName": "mare lang",
     "description": "mare script support for VS Code",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "minssy",
 	"license": "MIT",
     "engines": {
@@ -11,7 +11,7 @@
     "categories": [
         "Programming Languages"
     ],
-    "keywords": [ "mare", "mare-language", "mre", "script" ],
+    "keywords": [ "mare", "mare-language", "mre", "script", "m-interpreter" ],
     "contributes": {
         "languages": [
             {

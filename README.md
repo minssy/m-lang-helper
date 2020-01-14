@@ -8,6 +8,10 @@ Syntax support for the mare programming language. This extension adds basic feat
 
 > Region code folding
 
+## install
+
+> $ code --install-extension mare-lang-1.1.0.vsix
+
 ## Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.

@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.1.0]
+
+- Add Array.resize(int) 
+
 ## [1.0.0]
 
 - Initial release

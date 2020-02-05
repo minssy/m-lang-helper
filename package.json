@@ -2,8 +2,9 @@
     "name": "mare-lang",
     "displayName": "mare lang",
     "description": "mare script support for VS Code",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "minssy",
+    "repository": "https://github.com/minssy/m-lang-helper.git",
 	"license": "MIT",
     "engines": {
         "vscode": "^1.41.0"

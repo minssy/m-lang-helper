@@ -10,7 +10,7 @@ Syntax support for the mare programming language. This extension adds basic feat
 
 ## install
 
-> $ code --install-extension mare-lang-1.1.0.vsix
+> $ code --install-extension mare-lang-1.X.X.vsix
 
 ## Requirements
 

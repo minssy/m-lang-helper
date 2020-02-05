@@ -34,7 +34,7 @@
 		"entities": {
 			"patterns": [{
 				"name": "entity.name.function.mare",
-				"match": "\\b(toString|size|length|find|resize|ceil|floor|round|abs|pow|sqrt)\\b"
+				"match": "\\b(toString|size|length|find|resize|ceil|floor|round|abs|pow|sqrt|add|insert|remove|clear)\\b"
 			},
 			{
 				"name": "entity.name.type.mare",
@@ -55,7 +55,7 @@
 		"storages": {
 			"patterns": [{
 				"name": "storage.type.mare",
-				"match": "\\b(int|double|string|datetime|void)\\b"
+				"match": "\\b(int|double|string|datetime|void|arrayList)\\b"
 			},
 			{
 				"name": "storage.modifier.mare",

@@ -13,10 +13,10 @@
   Publisher를 생성 후, Publisher ID를 package.json 파일에 추가해주어야 함.
 
 
-## VS Code 개발 지원 툴 설치
+## Install the VS Code Extension
 
 - VS Code에서 Console창을 열고 Util 폴더로 이동 후, 아래 명령어를 입력
-> ` $ code --install-extension moca-lang-0.X.X.vsix `
+> ` $ code --install-extension mare-lang-0.X.X.vsix `
 
 - mac에서 'code: command not found'와 같은 에러가 발생한 경우
   * VS Code에서 Command Palette (⇧⌘P)를 열고, 'shell command'라고 입력

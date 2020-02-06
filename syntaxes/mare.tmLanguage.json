@@ -55,7 +55,7 @@
 		"storages": {
 			"patterns": [{
 				"name": "storage.type.mare",
-				"match": "\\b(int|double|string|datetime|void|arrayList)\\b"
+				"match": "\\b(int|double|string|datetime|void|arrayList|struct)\\b"
 			},
 			{
 				"name": "storage.modifier.mare",

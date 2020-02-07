@@ -2,3 +2,7 @@
 int a = 5
 double b = 5.57
 string c = "test"
+// mare-langage script sample
+int a = 5
+double b = 5.57
+string c = "test"

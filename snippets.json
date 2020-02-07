@@ -1,0 +1,145 @@
+{
+    "Struct": {
+        "prefix": "struct",
+        "body": [
+            "struct ${1:Name}",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "Struct"
+    },
+    "ArrayList": {
+		"prefix": "arrayList",
+		"body": [
+			"arrayList<${0:type}> "
+		],
+		"description": "ArrayList"
+    },
+    "Function statement": {
+        "prefix": "func",
+        "body": [
+            "func ${1:void} ${2:Name} ()",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "function statement"
+    },
+    "Foreach statement": {
+        "prefix": "foreach",
+        "body": [
+            "foreach (${1:item} : ${2:collection})",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "Foreach statement"
+    },
+    "for loop": {
+        "prefix": "for",
+        "body": [
+            "for (${1:i} = 0; ${1:i} < ${2:length}; ${1:i}++)",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "for loop"
+    },
+    "While loop": {
+        "prefix": "while",
+        "body": [
+            "while (${1:true})",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "While loop"
+    },
+    "if statement": {
+        "prefix": "if",
+        "body": [
+            "if (${1:true})",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "if statement"
+    },
+    "else if statement": {
+        "prefix": "else if",
+        "body": [
+            "else if (${1:true})",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "else if statement"
+    },
+    "else statement": {
+        "prefix": "else",
+        "body": [
+            "else",
+            "{",
+            "    $0",
+            "}"
+        ],
+        "description": "Else statement"
+    },
+	"system.now": {
+		"prefix": "system.now",
+		"body": [
+			"system.now"
+		],
+		"description": "system.now"
+    },
+    "system.today": {
+        "prefix": "system.today",
+        "body": [
+            "system.today"
+        ],
+        "description": "system.today"
+    },
+	"math.floor": {
+		"prefix": "math.floor",
+		"body": [
+			"math.floor($0)"
+		],
+		"description": "math.floor"
+    },
+    "math.ceil": {
+        "prefix": "math.ceil",
+        "body": [
+            "math.ceil($0)"
+        ],
+        "description": "math.ceil"
+    },
+    "math.round": {
+        "prefix": "math.round",
+        "body": [
+            "math.round($0)"
+        ],
+        "description": "math.round"
+    },
+    "math.abs": {
+		"prefix": "math.abs",
+		"body": [
+			"math.abs($0)"
+		],
+		"description": "math.floor"
+    },
+    "math.pow": {
+        "prefix": "math.pow",
+        "body": [
+            "math.pow(S0, S1)"
+        ],
+        "description": "math.pow"
+    },
+    "math.sqrt": {
+        "prefix": "math.sqrt",
+        "body": [
+            "math.sqrt($0)"
+        ],
+        "description": "math.sqrt"
+    }
+}

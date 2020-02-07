@@ -2,7 +2,7 @@
     "name": "mare-lang",
     "displayName": "mare lang",
     "description": "mare script support for VS Code",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "publisher": "minssy",
     "repository": "https://github.com/minssy/m-lang-helper.git",
 	"license": "MIT",
@@ -10,7 +10,7 @@
         "vscode": "^1.41.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages", "Snippets"
     ],
     "keywords": [ "mare", "mare-language", "mre", "script", "m-interpreter" ],
     "contributes": {
@@ -33,6 +33,12 @@
                 "scopeName": "source.mre",
                 "path": "./syntaxes/mare.tmLanguage.json"
             }
-        ]
+        ],
+        "snippets": [
+			{
+				"language": "mare",
+				"path": "./snippets.json"
+			}
+		]
     }
 }
